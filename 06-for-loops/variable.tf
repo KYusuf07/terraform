@@ -71,9 +71,9 @@ variable "instances" {
 }
 
 variable "zone_id" {
-    default = "Z01595761DU8O4AX48D6A"
+    default = "Z0417239ES8HIRJNPWY7"
 }
 
 variable "domain_name" {
-    default = "daws92s.store"
+    default = "vibelearning.online"
 }
