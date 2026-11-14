@@ -1,4 +1,4 @@
-/* resource "aws_instance" "web" {
+  resource "aws_instance" "web" {
   instance_type = "t3.micro"
   ami = "ami-0055977a6e828a4f4"
   vpc_security_group_ids = [aws_security_group.web.id]
@@ -6,9 +6,9 @@
   tags = {
     Name = "roboshop-web"
   }
-} */
+}
 
-resource "aws_security_group" "webserver" {
+resource "aws_security_group" "web" {
   name        = "web"
   description = "Allow TLS inbound traffic and all outbound traffic"
 
