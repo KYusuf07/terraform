@@ -8,7 +8,7 @@
   }
 } */
 
-resource "aws_security_group" "web" {
+resource "aws_security_group" "webserver" {
   name        = "web"
   description = "Allow TLS inbound traffic and all outbound traffic"
 
