@@ -49,6 +49,6 @@ resource "aws_security_group" "roboshop" {
   }
 
   tags = {
-    Name = "${var.project}-${var.environment}-${each.key}"
+    Name = "${var.project}-${var.environment}-${each.keoy}"
   }
 }
