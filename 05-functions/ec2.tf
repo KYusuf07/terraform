@@ -7,7 +7,7 @@ resource "aws_instance" "functions" {
     var.common_tags,
     {
       Name = "functions-demo"
-      Component = "poce"
+      Component = "poc"
     }
   )
 }
@@ -34,7 +34,7 @@ resource "aws_security_group" "functions" {
     var.common_tags,
     {
       Name = "functions-sg"
-      Component = "poce"
+      Component = "poc"
     }
   )
 }
