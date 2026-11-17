@@ -8,7 +8,7 @@ resource "aws_security_group" "dynamic" {
         from_port       = ingress.value.port
         to_port         = ingress.value.port
         protocol        = "tcp"
-        cidr_blocks      = ingress.value.cidr_blockss
+        cidr_blocks      = ingress.value.cidr_blocks
     }
   }
 
